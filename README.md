@@ -62,25 +62,33 @@ Boat(bid, bname, bcolor)
 
 ### a. (RA) Listez les couleurs des bateaux réservés par Albert.
 
-[Question_a_images](Images/Q3_a.png)
+![Question_a_images](Images/Q3_a.png)
 
 ### b. (RA) Listez les identifiants de tous les marins ayant une évaluation (rating) d'au moins 8 ou un bateau réservé 103.
 
+![Question_b_images](Images/Q3_b.png)
+
 ### c. (TRC) Listez les noms et l'âge de tous les marins qui ont une évaluation inférieure à 3.
+
+![Question_c_images](Images/Q3_c.png)
 
 ### d. (RDC) Listez les identifiants de tous les bateaux réservés le 2019-04-28.
 
+![Question_d_images](Images/Q3_d.png)
+
 ### e. (RDC) Listez les couleurs de tous les bateaux réservés par le marin Lubber.
+
+![Question_e_images](Images/Q3_e.png)
 
 ## Q4: RAID
 
 Déclaration | Correspond à | Déclaration
 ------------|--------------|------------
-1- Je peux utiliser une technique RAID niveau 0 car | | A - la tolérance aux pannes est importante pour mon application et je dois protéger mes données même si deux disques tombent en panne en même temps.
-2- Je peux utiliser une technique RAID niveau 1 car | | B - Je n'inquiet pas de perdre les données. Mon objectif principal est de pouvoir lire et écrire à grande vitesse.
-3- Je peux utiliser une technique RAID niveau 5 car | | C - J'ai 6 disques disponibles mais j'ai besoin de la capacité de 5 d'entre eux ce qui signifie que je ne peux pas gaspier l'espace qu'un seul disque pour assurer la redondance.
-4- Je peux utiliser une technique RAID niveau 6 car | | D - Je n'ai que deux disques disponibles, ce qui représente plus du double de la capacité dont j'ai besoin pour mon application et je veut être capable de récupérer les données si nécessaire.
-5- Je préfère utiliser une approche paritaire plutôt qu'une approche miroir car | | E - La tolérance aux pannes est importante pour mon application, mais je n'ai pas beaucoup d'espace disponible.
+1- Je peux utiliser une technique RAID niveau 0 car |B| A - la tolérance aux pannes est importante pour mon application et je dois protéger mes données même si deux disques tombent en panne en même temps.
+2- Je peux utiliser une technique RAID niveau 1 car |E| B - Je n'inquiet pas de perdre les données. Mon objectif principal est de pouvoir lire et écrire à grande vitesse.
+3- Je peux utiliser une technique RAID niveau 5 car |D| C - J'ai 6 disques disponibles mais j'ai besoin de la capacité de 5 d'entre eux ce qui signifie que je ne peux pas gaspier l'espace qu'un seul disque pour assurer la redondance.
+4- Je peux utiliser une technique RAID niveau 6 car |A| D - Je n'ai que deux disques disponibles, ce qui représente plus du double de la capacité dont j'ai besoin pour mon application et je veut être capable de récupérer les données si nécessaire.
+5- Je préfère utiliser une approche paritaire plutôt qu'une approche miroir car |C| E - La tolérance aux pannes est importante pour mon application, mais je n'ai pas beaucoup d'espace disponible.
 
 ## Q5: Arbre B+
 
