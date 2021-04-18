@@ -131,7 +131,22 @@ BMW|A|Black|High
 
 1. Brand
 
--Les valeurs pr
+-Les valeurs présentes sont Opel,Peugeot et BMW.
+-On aura donc besoin de 4 bits(rangées)
+
+Brand|R0|R1|R2|R3
+-----|--|--|---|--
+Opel|Oui|Oui| | |
+Peugeot| | |Oui| |
+BMW| | | |Oui|
+
+Qui donnera donc:
+
+Brand|R0|R1|R2|R3
+-----|--|--|---|--
+Opel|1|1|0|0|
+Peugeot|0|0|1|0|
+BMW|0|0|0|1|
 
 ### b. Montrez comment les indices bitmap peuvent être utilisés pour répondre aux requêtes:
 
