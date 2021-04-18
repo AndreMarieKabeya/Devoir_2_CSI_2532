@@ -18,9 +18,29 @@ Les clés candidates que j'ai obtenu sont: AB,DB,CB
 
 ### b. Indiquez toutes les violations de BCNF pour R et décomposez les relations en collections qui sont dans BCNF.
 
+Les éléments suivants violent BCNF:
+
+```
+C -> D
+D -> A
+```
+Pour être dans BCNF, voici les relations décomposées:
+```
+Relations will go here once I get them...
+```
+
 ### c. Indiquez quelles dépendances, s'ils existent, qui ne sont pas conservées par la décomposition BCNF.
 
 ## Q2: Dépendances fonctionnelles
+
+Une agence appelée InstantCover fournit du personnel à temps partiel / temporaire aux hôtels de toute l'Écosse. Le tableau suivant montre le temps inscrit par les personnels de l'agence travaillant dans deux hôtels.
+
+NIN | contractNo | hoursPerWeek | eName | hotelNo | hotelLocation
+----|------------|--------------|-------|---------|--------------
+113567WD|C1024|16|John Smith|H25|Edinburgh
+234111XA|C1024|24|Diane Hocine|H25|Edinburgh
+712670YD|C1025|28|Sarah White|H4|Glasgow
+113567WD|C1025|16|John Smith|H4|Glasgow
 
 ### a. Sur informations fournies, identifiez les quatre dépendances fonctionnelles décrites.
 
