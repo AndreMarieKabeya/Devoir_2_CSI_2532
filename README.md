@@ -62,6 +62,8 @@ Boat(bid, bname, bcolor)
 
 ### a. (RA) Listez les couleurs des bateaux réservés par Albert.
 
+[Question_a_images](Images/Q3_a.png)
+
 ### b. (RA) Listez les identifiants de tous les marins ayant une évaluation (rating) d'au moins 8 ou un bateau réservé 103.
 
 ### c. (TRC) Listez les noms et l'âge de tous les marins qui ont une évaluation inférieure à 3.
