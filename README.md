@@ -118,4 +118,25 @@ Considérons l'arbre B+ suivant avec n=4.
 
 ## Q6: Index Bitmap
 
+Considérez l'instance suivante de la relation voitures:
+
+Brand|Type|Color|Risk
+-----|----|-----|----
+Opel|Corsa|Grey|Low
+Opel|Corsa|Red|Medium
+Peugeot|206|Black|Medium
+BMW|A|Black|High
+
+### a. Construisez un index bitmap pour les attributs marque (Brand) et coleur (Color) de ce tableau.
+
+1. Brand
+
+-Les valeurs pr
+
+### b. Montrez comment les indices bitmap peuvent être utilisés pour répondre aux requêtes:
+
+#### i. Montrez la marque (Brand) de toutes les voitures qui ne sont pas noires (Black).
+
+#### ii. Donnez le nombre total de voitures Opel (Opel) rouges (Red) avec un score de risque moyen (Medium).
+
 ## Q7: Hachage
