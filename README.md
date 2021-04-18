@@ -110,7 +110,11 @@ Déclaration | Correspond à | Déclaration
 
 Considérons l'arbre B+ suivant avec n=4.
 
+![B+_tree](Images/Q5.png)
 
+### a. Montrez l'arbre B+ qui résulte après l'insertion (dans l'ordre donné) 56, 50, 75, 87, 48.
+
+### b. En utilisant l'arbre B+ précédemment obtenu en (a.), Montrez l'arbre B+ qui résulte après suppression (dans l'ordre donné) 50, 24, 65, 93, 75.
 
 ## Q6: Index Bitmap
 
