@@ -42,9 +42,25 @@ NIN | contractNo | hoursPerWeek | eName | hotelNo | hotelLocation
 712670YD|C1025|28|Sarah White|H4|Glasgow
 113567WD|C1025|16|John Smith|H4|Glasgow
 
-### a. Sur informations fournies, identifiez les quatre dépendances fonctionnelles décrites.
+Le numéro d'assurance nationale (NIN) est unique pour chaque employé. Avec le NIN et le numéro du contrat ( contractNo ), on peut déterminer les heuresPerWeek que l'employé à travailler. Le NIN permet également à l'entreprise de connaître le nom de l'employé ( eName ). Utilisation de hotelNo on sait le lieu de l'hôtel. Chaque contratNo est associé à un hôtel particulier, ce qui signifie qu'avec le contratNo on connaît également l' hotelNo .
+
+### a. Sur informations ci-dessus, identifiez les quatre dépendances fonctionnelles décrites.
+
+Voici les 4 dépendances fonctionnelles que j'ai trouvé:
+```
+{NIN, contractNo} -> hoursPerWeek
+NIN -> eName
+hotelNo -> hotelLocation
+contractNo -> hotelNo
+```
 
 ### b. Liste toutes les clés candidates.
+
+En me basant sur les dépendances obtenues en (a), j'ai trouvé les deux clés candidates suivantes:
+```
+{NIN, contractNo, hotelNo} représenterait tous les trois ensembles la première clé candidate (NINcontractNohotelNo)
+{NIN, contractNo} représente tous les deux ensembles la deuxième clé candidate (NINcontractNo)
+```
 
 ### c. Normaliser la relation avec la troisième forme normale (3NF) montrer les relations résultantes.
 
@@ -91,6 +107,10 @@ Déclaration | Correspond à | Déclaration
 5- Je préfère utiliser une approche paritaire plutôt qu'une approche miroir car |C| E - La tolérance aux pannes est importante pour mon application, mais je n'ai pas beaucoup d'espace disponible.
 
 ## Q5: Arbre B+
+
+Considérons l'arbre B+ suivant avec n=4.
+
+
 
 ## Q6: Index Bitmap
 
