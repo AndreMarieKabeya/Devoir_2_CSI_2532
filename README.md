@@ -173,7 +173,11 @@ Black|0|0|1|1|
 
 #### i. Montrez la marque (Brand) de toutes les voitures qui ne sont pas noires (Black).
 
+![Q_6_i](Images/Q6_i.png)
+
 #### ii. Donnez le nombre total de voitures Opel (Opel) rouges (Red) avec un score de risque moyen (Medium).
+
+![Q_6_ii](Images/Q6_ii.png)
 
 ## Q7: Hachage
 
