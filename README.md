@@ -129,9 +129,10 @@ BMW|A|Black|High
 
 ### a. Construisez un index bitmap pour les attributs marque (Brand) et coleur (Color) de ce tableau.
 
-1. Brand
+1. Index Bitmap pour Brand
 
 -Les valeurs présentes sont Opel,Peugeot et BMW.
+
 -On aura donc besoin de 4 bits(rangées)
 
 Brand|R0|R1|R2|R3
@@ -148,6 +149,26 @@ Opel|1|1|0|0|
 Peugeot|0|0|1|0|
 BMW|0|0|0|1|
 
+2. Index Bitmap pour Color
+
+-Les valeurs possibles sont Grey, Red et Black
+
+-On aura donc besoin de 4 bits(rangées)
+
+Color|R0|R1|R2|R3
+-----|--|--|---|--
+Grey|Oui| | | |
+Red| |Oui| | |
+Black| | |Oui|Oui|
+
+Qui donnera donc:
+
+Color|R0|R1|R2|R3
+-----|--|--|---|--
+Grey|1|0|0|0|
+Red|0|1|0|0|
+Black|0|0|1|1|
+
 ### b. Montrez comment les indices bitmap peuvent être utilisés pour répondre aux requêtes:
 
 #### i. Montrez la marque (Brand) de toutes les voitures qui ne sont pas noires (Black).
@@ -155,3 +176,15 @@ BMW|0|0|0|1|
 #### ii. Donnez le nombre total de voitures Opel (Opel) rouges (Red) avec un score de risque moyen (Medium).
 
 ## Q7: Hachage
+
+Considérez la fonction de hachage suivante h(x) = x mod 4 pour construire un index de hachage. Cette fonction vous permet d'utiliser 4 panier différents. Supposons que chaque compartiment ne peut contenir que 3 entrées d'index.
+
+### a. Utilisez cette fonction pour créer l'index de hachage des valeurs de clé de recherche suivantes: 2, 4, 6, 12, 13, 16, 20, 24, 28, 40
+
+Voici l'index de hachage que j'ai obtenu:
+
+![Index_hachage](Images/Q7.png)
+
+### b. Basé sur ces valeurs de clé de recherche, est-ce que cette fonction est une bonne fonction de hachage? Expliquez votre réponse.
+
+Cette fonction ne semble pas être une bonne fonction de hachage. En effet, il m'était impossible d'ajouter les clés 20,24,28 et 40 dans l'index de hachage obtenu en (a) car les valeurs lorsque divisées par 4, me donnaient toutes un reste de 00 qui représentait un endroit complètement rempli avec les clés 4,12 et 16.
