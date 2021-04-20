@@ -26,10 +26,18 @@ D -> A
 ```
 Pour être dans BCNF, voici les relations décomposées:
 ```
-Relations will go here once I get them...
+R1=(A,B,C)
+R2=(C,D)
+R3=(D,A)
 ```
 
 ### c. Indiquez quelles dépendances, s'ils existent, qui ne sont pas conservées par la décomposition BCNF.
+
+Les deux dépendances suivantes ne sont pas conservées par la décomposition BCNF:
+```
+AB -> D
+C -> A
+```
 
 ## Q2: Dépendances fonctionnelles
 
