@@ -255,8 +255,8 @@ Considérez la fonction de hachage suivante h(x) = x mod 4 pour construire un in
 
 Voici l'index de hachage que j'ai obtenu:
 
-![Index_hachage](Images/Q7.png)
+![Index_hachage](Images/new_Q7.png)
 
 ### b. Basé sur ces valeurs de clé de recherche, est-ce que cette fonction est une bonne fonction de hachage? Expliquez votre réponse.
 
-Cette fonction ne semble pas être une bonne fonction de hachage. En effet, il m'était impossible d'ajouter les clés 20,24,28 et 40 dans l'index de hachage obtenu en (a) car les valeurs lorsque divisées par 4, me donnaient toutes un reste de 00 qui représentait un endroit complètement rempli avec les clés 4,12 et 16.
+Cette fonction ne semble pas être une bonne fonction de hachage. En effet, afin d'ajouter 20,24,28 et 40 dans l'index de hachage obtenu en (a), il fallait ajouter deux autres contenants afin de pouvoir prendre en charge le débordement car 20,24,28 et 40 mod 4 donnaient tous 00, qui était un espace déjà occupé par 4,12 et 16.
