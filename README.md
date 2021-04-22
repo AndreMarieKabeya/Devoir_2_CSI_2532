@@ -123,6 +123,28 @@ Considérons l'arbre B+ suivant avec n=4.
 
 ### a. Montrez l'arbre B+ qui résulte après l'insertion (dans l'ordre donné) 56, 50, 75, 87, 48.
 
+Insertion 56:
+
+![Insertion_56](Images/Q5_01.png)
+
+Insertion 50:
+
+![Insertion_50](Images/Q5_02.png)
+
+Insertion 75:
+
+![Insertion_75](Images/Q5_03.png)
+
+Insertion 87:
+
+![Insertion_87](Images/Q5_04.png)
+
+Insertion 48:
+
+Voici donc ce à quoi ressemble l'arbre B+ après l'insertion du dernier élément:
+
+![Insertion_48](Images/Q5_06.png)
+
 ### b. En utilisant l'arbre B+ précédemment obtenu en (a.), Montrez l'arbre B+ qui résulte après suppression (dans l'ordre donné) 50, 24, 65, 93, 75.
 
 ## Q6: Index Bitmap
