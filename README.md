@@ -65,13 +65,28 @@ contractNo -> hotelNo
 
 ### b. Liste toutes les clés candidates.
 
-En me basant sur les dépendances obtenues en (a), j'ai trouvé les deux clés candidates suivantes:
+En me basant sur les dépendances obtenues en (a), j'ai trouvé la clé candidate suivante:
 ```
-{NIN, contractNo, hotelNo} représenterait tous les trois ensembles la première clé candidate (NINcontractNohotelNo)
-{NIN, contractNo} représente tous les deux ensembles la deuxième clé candidate (NINcontractNo)
+{NIN, contractNo} représente tous les deux ensembles la clé candidate (NINcontractNo)
 ```
 
 ### c. Normaliser la relation avec la troisième forme normale (3NF) montrer les relations résultantes.
+
+Voici les deux relations résultantes lorsque je transforme la relation avec la troisième forme normale:
+
+NIN|contractNo|eName|hoursPerWeek|hotelNo
+---|----------|-----|------------|-------
+113567WD|C1024|John Smith|16|H25
+234111XA|C1024|Diane Hocine|24|H25
+712670YD|C1025|Sarah White|28|H4
+113567WD|C1025|John Smith|16|H4
+
+hotelNo|hotelLocation
+-------|-------------
+H25|Edinburgh
+H4|Glasgow
+
+
 
 ## Q3: Langues pures
 
