@@ -26,10 +26,19 @@ D -> A
 ```
 Pour être dans BCNF, voici les relations décomposées:
 ```
-Relations will go here once I get them...
+R1=(C,D)
+R2=(A,D)
+R3=(B,C)
+
+L'ensemble final avec toutes les relations est donc {CD,AD,BC}
 ```
 
 ### c. Indiquez quelles dépendances, s'ils existent, qui ne sont pas conservées par la décomposition BCNF.
+
+La seule dépendance qui n'est pas conservée par la décomposition BCNF est:
+```
+AB -> C
+```
 
 ## Q2: Dépendances fonctionnelles
 
@@ -173,7 +182,11 @@ Black|0|0|1|1|
 
 #### i. Montrez la marque (Brand) de toutes les voitures qui ne sont pas noires (Black).
 
+![Q_6_i](Images/Q6_i.png)
+
 #### ii. Donnez le nombre total de voitures Opel (Opel) rouges (Red) avec un score de risque moyen (Medium).
+
+![Q_6_ii](Images/Q6_ii.png)
 
 ## Q7: Hachage
 
