@@ -147,6 +147,28 @@ Voici donc ce à quoi ressemble l'arbre B+ après l'insertion du dernier éléme
 
 ### b. En utilisant l'arbre B+ précédemment obtenu en (a.), Montrez l'arbre B+ qui résulte après suppression (dans l'ordre donné) 50, 24, 65, 93, 75.
 
+Suppression 50:
+
+![Suppression_50](Images/Q5_b_01.png)
+
+Suppression 24:
+
+![Suppression_24](Images/Q5_b_02.png)
+
+Suppression 65:
+
+![Suppression_65](Images/Q5_b_03.png)
+
+Suppression 93:
+
+![Suppression_93](Images/Q5_b_04.png)
+
+Suppression 75:
+
+Voici donc l'arbre final après la suppression de tous les éléments demandés:
+
+![Suppression_75](Images/Q5_b_05.png)
+
 ## Q6: Index Bitmap
 
 Considérez l'instance suivante de la relation voitures:
