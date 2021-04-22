@@ -126,9 +126,9 @@ Déclaration | Correspond à | Déclaration
 ------------|--------------|------------
 1- Je peux utiliser une technique RAID niveau 0 car |B| A - la tolérance aux pannes est importante pour mon application et je dois protéger mes données même si deux disques tombent en panne en même temps.
 2- Je peux utiliser une technique RAID niveau 1 car |E| B - Je n'inquiet pas de perdre les données. Mon objectif principal est de pouvoir lire et écrire à grande vitesse.
-3- Je peux utiliser une technique RAID niveau 5 car |D| C - J'ai 6 disques disponibles mais j'ai besoin de la capacité de 5 d'entre eux ce qui signifie que je ne peux pas gaspier l'espace qu'un seul disque pour assurer la redondance.
+3- Je peux utiliser une technique RAID niveau 5 car |C| C - J'ai 6 disques disponibles mais j'ai besoin de la capacité de 5 d'entre eux ce qui signifie que je ne peux pas gaspier l'espace qu'un seul disque pour assurer la redondance.
 4- Je peux utiliser une technique RAID niveau 6 car |A| D - Je n'ai que deux disques disponibles, ce qui représente plus du double de la capacité dont j'ai besoin pour mon application et je veut être capable de récupérer les données si nécessaire.
-5- Je préfère utiliser une approche paritaire plutôt qu'une approche miroir car |C| E - La tolérance aux pannes est importante pour mon application, mais je n'ai pas beaucoup d'espace disponible.
+5- Je préfère utiliser une approche paritaire plutôt qu'une approche miroir car |D| E - La tolérance aux pannes est importante pour mon application, mais je n'ai pas beaucoup d'espace disponible.
 
 ## Q5: Arbre B+
 
